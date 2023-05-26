@@ -6,7 +6,7 @@ body{
 
 header{
     height: 100px;
-    border-bottom:1px solid #000;
+    border-bottom: 0.5px solid #000;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ h1{
 section{
     margin: 0 auto;
     display: block;
-    max-width: 1024 px;
+    max-width: 1024px;
     width: 100%;
 }
 
@@ -43,8 +43,8 @@ section{
     display: inline-block;
     margin: 10px;
     border: 1px solid #000;
-    max-height: 100%;
     vertical-align: top;
+    max-height: 100%;
 }
 
 @media (max-width: 768px) {
